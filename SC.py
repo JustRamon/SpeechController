@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-
-# NOTE: this example requires PyAudio because it uses the Microphone class
-
 import speech_recognition as sr
 import ksr10
 import time
 arm = ksr10.ksr10_class()
 
-# obtain audio from the microphone
 while 1:
 	r = sr.Recognizer()
 	with sr.Microphone() as source:
