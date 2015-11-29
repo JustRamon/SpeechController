@@ -1,2 +1,2 @@
 # SpeechController
-Controll a Velleman KSR10 Robotic Arm with your speech!
+Control a Velleman KSR10 Robotic Arm with your speech!
